@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/design-projects",
+      "handler": "design-projects.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/design-projects/count",
+      "handler": "design-projects.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/design-projects/:id",
+      "handler": "design-projects.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/design-projects",
+      "handler": "design-projects.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/design-projects/:id",
+      "handler": "design-projects.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/design-projects/:id",
+      "handler": "design-projects.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
